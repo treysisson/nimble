@@ -166,8 +166,8 @@ header nav li:last-child{
 
 .hero .background-image{
 	position: relative;
-	/*top: 50%;
-	left: 50%;*/
+	top: 0%;
+	left: 0;
 	vertical-align: center;
 	text-align: center;
 	width: 100%;
@@ -180,8 +180,8 @@ header nav li:last-child{
 .hero .background-image:after{
 	content: '';
 	position: relative;
-	/*top: 50%;
-	left: 50%;*/
+	top: 0;
+	left: 0;
 	vertical-align: center;
 	text-align: center;
 
