@@ -174,8 +174,7 @@ header nav li:last-child{
 	background-color: #2196F3;
 	z-index: -1;
 }
-
-.hero .background-image:after{
+/*.hero .background-image:after{
 	content: '';
 	position: absolute;
 	top: 0;
@@ -184,7 +183,7 @@ header nav li:last-child{
 	height: 100%;
 	background-color: #414a4f;
 	
-}
+}*/
 
 .hero h1{
 	font: bold 60px 'Open Sans', sans-serif;
