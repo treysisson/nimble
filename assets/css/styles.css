@@ -1,3 +1,4 @@
+@@ -0,0 +1,458 @@
 /*-------------
  	General
 -------------*/
@@ -108,7 +109,7 @@ header{
 	justify-content: space-between;
 	align-items: center;
 	color: #fff;
-	/*padding: 35px 100px 0;*/
+	padding: 35px 100px 0;
 }
 
 header h2{
@@ -160,7 +161,7 @@ header nav li:last-child{
 	position: relative;
 	justify-content: center;
 	min-height: 100vh;
-	color: red;
+	color: #fff;
 	text-align: center;
 }
 
@@ -171,7 +172,7 @@ header nav li:last-child{
 	width: 100%;
 	height: 100%;
 	background-size: cover;
-	background-color: purple;
+	background-color: #2196F3;
 	z-index: -1;
 }
 
@@ -182,9 +183,8 @@ header nav li:last-child{
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-color: green;
+	background-color: #414a4f;
 	/*opacity: 0.75;*/
-	z-index: 1;
 }
 
 .hero h1{
@@ -205,6 +205,7 @@ header nav li:last-child{
 
 	.hero{
 		min-height: 600px;
+		background-image: url('/assets/img/Baboon_small.png');
 	}
 
 	.hero h1{
@@ -219,13 +220,7 @@ header nav li:last-child{
 		padding: 15px 40px;
 	}
 
-}
 
-@media (max-width: 600px){
-
-	.hero{
-		background: url('/assets/img/Baboon_main.png');
-	}
 }
 
 
