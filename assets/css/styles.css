@@ -223,7 +223,7 @@ header nav li:last-child{
 @media (max-width: 600px){
 
 	.hero{
-		background: url('/assets/css/img/Baboon_main.png');
+		background: url('/assets/img/Baboon_main.png');
 	}
 }
 
