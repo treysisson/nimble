@@ -207,7 +207,7 @@ header nav li:last-child{
 
 	.hero{
 		min-height: 600px;
-		background-image: url('/assets/img/mountain.jpg');
+		/*background-image: url('/assets/img/mountain.jpg');*/
 	}
 
 
@@ -228,7 +228,7 @@ header nav li:last-child{
 @media (max-width: 600px){
 
 	.hero{
-		background-image: url('/assets/img/Baboon_tiny.png');
+		/*background-image: url('/assets/img/Baboon_tiny.png');*/
 	}
 
 
