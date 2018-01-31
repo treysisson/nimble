@@ -165,23 +165,23 @@ header nav li:last-child{
 }
 
 .hero .background-image{
-	position: absolute;
+	position: relative;
 	top: 50%;
 	left: 50%;
-	width: 45%;
-	height: 45%;
-	background-size: cover;
+	width: 100%;
+	height: 100%;
+	background-size: auto;
 	background-color: purple;
 	z-index: -1;
 }
 
 .hero .background-image:after{
 	content: '';
-	position: absolute;
+	position: relative;
 	top: 50%;
 	left: 50%;
-	width: 45%;
-	height: 45%;
+	width: 100%;
+	height: 100%;
 	background-color: green;
 	/*opacity: 0.75;*/
 }
