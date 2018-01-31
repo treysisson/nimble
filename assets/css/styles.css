@@ -165,7 +165,7 @@ header{
 @media (max-width: 600px){
 
 	.hero{
-		background-image: url('/assets/img/Baboon_wtf.png');
+		background-image: url('/assets/img/Baboon_tiny.png');
 
 
 	}
@@ -174,9 +174,10 @@ header{
 		top: 0;
 		left: 0;
 		width: 100%;
-		height: 100%;
+		height: auto;
 		background-size: cover;
 		background-color: #FF5419;
+	    background-position: center;
 		z-index: -1;
 	}
 	.hero .background-image:after{
@@ -185,7 +186,7 @@ header{
 		top: 0;
 		left: 0;
 		width: 100%;
-		height: 100%;
+		height: auto;
 		/*background-color: #414a4f;*/
 		opacity 0.99;
 	
