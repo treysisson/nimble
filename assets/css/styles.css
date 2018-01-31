@@ -171,7 +171,7 @@ header nav li:last-child{
 	width: 100%;
 	height: 100%;
 	background-size: cover;
-	background-color: #2196F3;
+	background-color: #FF5419;
 	z-index: -1;
 }
 .hero .background-image:after{
@@ -200,11 +200,34 @@ header nav li:last-child{
 	padding: 20px 46px;
 }
 
+
+
+
 @media (max-width: 800px){
 
 	.hero{
 		min-height: 600px;
 		background-image: url('/assets/img/mountain.jpg');
+	}
+	.hero .background-image{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-size: cover;
+		background-color: #FF5419;
+		z-index: -1;
+	}
+	.hero .background-image:after{
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		/*background-color: #414a4f;*/
+		opacity 0.99;
 	}
 
 	.hero h1{
@@ -225,6 +248,26 @@ header nav li:last-child{
 
 	.hero{
 		background-image: url('/assets/img/Baboon_tiny.png');
+	}
+	.hero .background-image{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-size: cover;
+		background-color: #FF5419;
+		z-index: -1;
+	}
+	.hero .background-image:after{
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		/*background-color: #414a4f;*/
+		opacity 0.99;
 	}
 
 
