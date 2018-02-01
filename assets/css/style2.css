@@ -17,3 +17,24 @@ body, html {
     position: relative;
     background-color: green;
 }
+
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+    background-color: purple;
+}
+
+.fullscreen-img {
+    position: absolute;
+    background-image: url('/assets/img/Baboon_Flag.png');
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
