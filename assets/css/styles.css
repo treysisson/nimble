@@ -108,10 +108,7 @@ header{
 	position: relative;
 	justify-content: center;
 	min-height: 100vh;
-	max-height: 100vh;
-	min-width: 100vw;
-	max-width: 100vw;
-	background-color: #FF5419;
+	background-color: #FFF;
 	text-align: center;
 }
 
