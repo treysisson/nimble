@@ -108,16 +108,16 @@ header{
 	position: relative;
 	justify-content: center;
 	min-height: 100vh;
-	color: #fff;
+	background-color: #FF5419;
 	text-align: center;
 }
 
 .hero .background-image{
 	position: absolute;
-	top: 0;
-	left: 0;
-	width: 504px;
-	height: 772px;
+	top: 50%;
+	left: 50%;
+	width: 256px;
+	height: 392px;
 	background-size: cover;
 	background-color: #FF5419;
 	z-index: -1;
@@ -125,10 +125,10 @@ header{
 .hero .background-image:after{
 	content: '';
 	position: absolute;
-	top: 0;
-	left: 0;
-	width: 504px;
-	height: 772px;
+	top: 50%;
+	left: 50%;
+	width: 256px;
+	height: 392px;
 	/*background-color: #414a4f;*/
 	opacity 0.99;
 	
