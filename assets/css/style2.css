@@ -32,8 +32,10 @@ body, html {
 .fullscreen-img {
     position: absolute;
     background-image: url('/assets/img/Baboon_Flag.png');
-    top: 0;
-    left: 0;
+    background-repeat: no-repeat;
+    height: 50%;
+    top: 50%;
+    left: 50%;
     width: 100%;
     height: 100%;
 
