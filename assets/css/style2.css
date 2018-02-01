@@ -46,6 +46,7 @@ body, html {
   left: -50%; 
   width: 200%; 
   height: 200%;
+  background-color: #000ddd;
 }
 #bg img {
   position: absolute; 
